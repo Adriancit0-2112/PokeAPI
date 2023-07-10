@@ -1,7 +1,5 @@
 import { NavLink } from 'react-router-dom'
 
-// NavLink y Link sustituyen a <a href='...'>...</a>, por que la etiqueta <a> recarga la página y rompe el SPA. Y en vez de href se utiliza to
-
 const Navbar = () => {
   return (
     <nav className='navbar navbar-expand-sm navbar-light bg-warning d-flex justify-content-between px-4'>
